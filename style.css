@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    height: 100vh; /* Sayfanın yüksekliği kadar kutuyu ortala */
+}
+
+
+#sagKutu {
+    width: 900px; /* Kutunun genişliğini ayarlayabilirsiniz */
+    height: 550px; /* Kutunun yüksekliğini ayarlayabilirsiniz */
+    background-color: #f0f0f0; /* Arka plan rengini ayarlayabilirsiniz */
+    margin-top: -500px; /* Yukarı çekmek için negatif bir değer kullanabilirsiniz */
+    background-color: rgba(255, 144, 18, 0.8);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); /* Gölge efekti ekler */
+}
+
+body {
+    background-color: burlywood;
+    background-image: url('körü\ soslu\ tavuk.jpg'); /* Kullanmak istediğiniz resmin dosya yolunu belirtin */
+    background-size: cover; /* Resmi ekran boyutuna sığacak şekilde ölçeklendirin */
+    background-repeat: no-repeat; /* Resmin yinelenmesini engelleyin */
+    background-attachment: fixed; /* Arka planın sabit kalmasını sağlayın */
+}
+
+.ilkyazı {
+    background-color: rgba(255, 255, 255, 0.5); /* Arka plan rengi ve şeffaflık değeri */
+    padding: 20px; /* İçeriğin çevresine boşluk ekleyin */
+  }
